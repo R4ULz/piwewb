@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    box-sizing: content-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2020;
+}
+.navbar{
+    background: #4481EB;
+    font-size: 1.1em;
+}
+#conteudoNavbarSuportado{
+    position: relative;
+    left: 65%;
+}
+.home{
+    height: 570px;
+    background: linear-gradient(180deg, #4481EB 17.71%, rgba(4, 190, 254, 0.83) 63.02%, rgba(4, 190, 254, 0.51) 99.94%, rgba(4, 190, 254, 0.00) 99.95%, rgba(0, 122, 239, 0.29) 99.96%);
+}
+.home .row{
+    position: relative;
+    top: 200px;
+}
+.home .row .text-home{
+    color: white;
+    text-align: center;
+    position:relative;
+    right: 2rem;
+}
+.home .carroca{
+    position:relative;
+    bottom: 90px;
+}
+.owl-carousel .owl-item img{
+    height: 20rem;
+    width: 100rem;
+}
+.second{
+    height: 30rem;
+}
+.second .fora{
+    display: flex;
+    justify-content: center;
+}
+.second .services{
+    margin-top: 25px;
+    display: block;
+}
+.second .barrinha{
+    height: 2px;
+    background-color: #04BEFE26;
+}
+.second .modulo{
+    text-align: center;
+    justify-content: center;
+}
+.second .modulo .col-md-4{
+    display: flex;
+    justify-content: center;
+}
+.second .modulo .item{
+    margin: 20px 10px 0px 10px;
+    background-color: #77C9EC4F;
+    width: 290px;
+    padding: 10px;
+}
+.second .modulo .item h4{
+    width: 270px;
+    
+}
+.second .modulo .item p{
+    width: 260px;
+    
+}
+
+
+
